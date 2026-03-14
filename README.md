@@ -1,75 +1,51 @@
-# Nuxt Minimal Starter
+# 🚀 Nuxt 4 Minimal Boilerplate
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A clean, fast, and fully configured starter template for Nuxt 4 projects. This boilerplate is built with modern web development standards to provide a seamless developer experience right out of the box.
 
-## Setup
+## ✨ Tech Stack
 
-Make sure to install dependencies:
+* **Framework:** Nuxt 4 & Vue 3
+* **Package Manager:** pnpm
+* **UI & Styling:** Nuxt UI & Tailwind CSS
+* **Utilities:** VueUse
+* **Validation:** Zod
+* **Code Quality:** ESLint (via `@nuxt/eslint`) & TypeScript
+
+## 🛠️ How to start a new project
+
+This repository is set up as a GitHub Template. You do not need to clone it and manually delete the `.git` folder. Instead, let GitHub do the heavy lifting:
+
+1. Click the green **Use this template** button at the top right of this repository.
+2. Select **Create a new repository** from the dropdown menu.
+3. Choose the account you want to own the repository (the **Owner** dropdown).
+4. Type a name and an optional description for your new project.
+5. Choose the repository visibility (Public or Private).
+6. Click **Create repository from template**.
+
+GitHub will generate a brand-new repository with all these files, starting with a clean, single commit!
+
+## 💻 Local Setup
+
+Once your new repository is created, clone it to your local machine and run the following commands in your terminal:
 
 ```bash
-# npm
-npm install
-
-# pnpm
+# 1. Install all dependencies
 pnpm install
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
+# 2. Start the development server
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+> **Important Note:** Remember to open the `package.json` file in your new repository and change the `"name": "nuxt-boilerplate"` field to your actual project name!
 
-Build the application for production:
+## 📜 Available Scripts
 
-```bash
-# npm
-npm run build
+You can run these commands using `pnpm <command>`:
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+* `dev` - Starts the development server on `http://localhost:3000`.
+* `build` - Builds the application for production.
+* `generate` - Pre-renders every route for static hosting.
+* `preview` - Locally previews your production build.
+* `lint` - Checks the codebase for ESLint errors.
+* `lint:fix` - Automatically fixes code formatting and ESLint errors.
+* `typecheck` - Runs TypeScript type checking across the project.
