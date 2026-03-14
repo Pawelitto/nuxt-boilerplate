@@ -1,0 +1,3 @@
+<template>
+  <UHeader to="/" />
+</template>
